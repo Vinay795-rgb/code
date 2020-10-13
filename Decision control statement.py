@@ -182,3 +182,46 @@
 #           print("Root1 and Root2 = ",root1)
 # else:
 #           print("IMAGINARY ROOTS")
+#  While Loops
+# Write a program to calculate the sum and average of first 10 numbers
+# i = 0
+# s = 0
+# while(i<=10):
+#           s = s+i
+#           i=i+1
+# avg = float(s)/10
+# print("The sum of first 10 numbers is : ", s)
+# print("The average of first 10 numbers is : ", avg)
+
+
+#  Write a program to print 20 horizontal asterisks(*).
+# i = 1
+# while(i<=20):
+#           print("*",end="")
+#           i = i+1
+
+#  Write a program to calcualte the sum of the numbers from m to n
+# m = int(input("Enter the value of m : "))
+# n = int(input("Enter the value of n : "))
+# s = 0
+# while(m<=n):
+#           s = s+m
+#           m = m+1
+# print("SUM = ",s)
+
+#  Write a program to read the numbers until -1 is encountered. Also count the negative,positive,and zeros entered by the users
+# negatives = positives = zeroes = 0
+# print("Enter -1 to exit...")
+# while(1):
+#           num = int(input("Enter any number : "))
+#           if(num==-1):
+#                     break
+#           if(num==0):
+#                     zeroes = zeroes+1
+#           elif(num>0):
+#                     positives = positives+1
+#           else:
+#                     negatives = negatives+1
+# print("Count of Positive numbers entered : ",positives)
+# print("Count of negative numbers entered : ",negatives)
+# print("Count of zeros entered : ",zeroes)
