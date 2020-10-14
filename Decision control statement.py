@@ -225,3 +225,110 @@
 # print("Count of Positive numbers entered : ",positives)
 # print("Count of negative numbers entered : ",negatives)
 # print("Count of zeros entered : ",zeroes)
+#  Write a program to read the numbers until -1 is encountered. Find the average of positive numbers and negative numbers entered by the users.
+# neg_count = 0
+# neg_s = 0
+# pos_count = 0
+# pos_s = 0
+# print("Enter -1 to exit...")
+# num = int(input("Enter the numbers : "))
+# while(num!=-1):
+#           if(num<0):
+#                     neg_count=neg_count+1
+#                     neg_s=neg_s+num
+#           else:
+#                     pos_count=pos_count+1
+#                     pos_s=pos_s+num
+#           num = int(input("Enter the number : "))
+# neg_avg = float(neg_s)/neg_count
+# pos_avg = float(pos_s)/pos_count
+# print("The average of negative numbers is : ",neg_avg)
+# print("The average of positive numbers is : ",pos_avg)
+
+#  Write a program to find whether the given number is an Amstrong number or not
+# Hints : An Armstrong number of three digits is an integer such that the sum of the cubes
+# of its digits is equal to the number itself. For Example, 371 is an amstrong number
+# since 3**3 + 7**3 + 1**3 = 371.
+
+# n = int(input("Enter the number : "))
+# s = 0
+# num = n
+# while(n>0):
+#           r = n%10
+#           s = s+(r**3)
+#           n = n/10
+# if(s==num):
+#           print("The number is Armstrong")
+# else:
+#           print("The number is not a Armstrong")
+
+#  Write a program to enter a decimal numbers. Calculate and display the binary equivalent of this number
+# decimal_num = int(float(input("Enter the decimal number : ")))
+# binary_num = 0
+# i = 0
+# while(decimal_num!=0):
+#           remainder = decimal_num%2
+#           binary_num = binary_num + remainder*(10**i)
+#           decimal_num = decimal_num/2
+# '          i = i+1
+# print("The binary equivalent = ",binary_num)
+
+# Coreee Write a Program to enter the binary number it into decimal number.
+# binary_num = int(input("Enter the binary number : "))
+# decimal_num = 0
+# i = 0
+# while(binary_num!=0):
+#           remainder = binary_num%10
+#           decimal_num = decimal_num + remainder*(2**i)
+#           binary_num = binary_num/10
+#           i = i+1
+# print("The decimal equivalent is", decimal_num)
+
+#  Write a program to read a character until a * is encountered. Also count the number of uppercase, lowercase, and number entered by the users.
+#  For end press star[*]
+# ch = input("Enter any character : ")
+# num_count = 0
+# up_count = 0
+# low_count = 0
+# if(ch>='0' and ch<='9'):
+#           num = num+1
+# elif(ch>='a' and ch<='z'):
+#           low_count = low_count+1
+# elif(ch>='A' and ch<='Z'):
+#           up_count = up_count+1
+# while(ch!='*'):
+#           ch = input("Enter any character : ")
+#           if(ch>='0' and ch <= '9'):
+#                     num_count = num_count+1
+#           elif(ch>='a' and ch<='z'):
+#                     low_count = low_count+1
+#           elif(ch>='A' and ch<='Z'):
+#                     up_count = up_count+1
+# print("Number of lowecase character are : ", low_count)
+# print("Number of uppercase character are : ",up_count)
+# print("Number of numerals are : ",num_count)
+
+#  Write a program to enter a number and then calculate the sum of its digits.
+# sumOfDigits = 0
+# num = int(input("Enter the number : "))
+# while(num!=0):
+#           temp=num%10
+#           sumOfDigits = sumOfDigits+temp
+#           num=num/10
+# print("The sum of digit is :", sumOfDigits)
+
+#  Write a program to calculate GCD of two numbers.
+# num1 = int(input("Enter the two numbers : "))
+# num2 = int(input("Enter the two numbers : "))
+# if(num1>num2):
+#           divendend = num1
+#           divisor = num2
+# else:
+#           divendend = num2
+#           divisor = num1
+# while(divisor!=0):
+#           remainder = divendend%divisor
+#           divendend = divisor
+#           divisor = remainder
+# print("GCD of",num1, "and",num2,"is",divendend)
+
