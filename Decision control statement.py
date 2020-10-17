@@ -393,4 +393,54 @@
 # else:
 #           print("Number is prime")
 
+#  Write a program using while loop to read unit -1 is encountered. Also, count the number of prime numbera and composite nu,bers entered by the user
+# totol_prime = 0
+# total_composite = 0
+
+# while(1):
+#           num = int(input("Enter the number : "))
+#           if(num == -1):
+#                     break
+#           is_composite = 0
+#           for i in range(2, num):
+#                     if(num%i == 0):
+#                               is_composite = 1
+#                               break
+#                     if(is_composite):
+#                               total_composite+=1
+#                     else:
+#                               total_prime+=1
+
+# print("total composite : ",total_composite)
+# print("total prime : ",total_prime)
+
+# Write a program to calculate pow(x,n)
+# num = int(input("Enter the number : "))
+# n = int(input("Till which power to calculate?"))
+# result = 1
+# for i in range(n):
+#           result = result*num
+# print(num,"raised to the power",n,"is",result)
+
+#  Write a program that display all leap years from 1900-2101
+# print("Leap Years from 1900-2101 are : ")
+# for i in range(1900,2101):
+#           if(i%4==0):
+#                     print(i,end=' ')
+
+#   Write a program to sum the series-1+1/2+...+1/n.
+# n = int(input("Enter the number : "))
+# s = 0.0
+# for i in range(1,n+1):
+#           a = 1.0/i
+#           s = s+a
+# print("The sum of 1,1/2....1/"+str(n)+" is "+str(s))
+
+#  Write a program to sum the series-1/1^2+1/2^2 +...1/n^2
+# n = int(input("Enter the number : "))
+# s = 0.0
+# for i in range(1,n+1):
+#           a = 1.0/i
+#           s = s+a
+# print("The sum of the series is",s)
 
