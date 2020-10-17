@@ -332,3 +332,65 @@
 #           divisor = remainder
 # print("GCD of",num1, "and",num2,"is",divendend)
 
+#  Write a program to print the reverse of number
+# num = int(input("Enter the number : "))
+# print("The reversed number is :",)
+# while(num!=0):
+#           temp = num%10
+#           print(temp, end="  ")
+#           num = num/10
+
+#  Write a program using while loop that asks the user for a number, and print a countdown from that number to zero
+# n = int(input("Enter the value of n : "))
+# while n>=0:
+#           print(n, end = ' ')
+#           n = n-1
+
+#  Write a program using for loop to calculate the average of the first n natural numbers.
+# n = int(input("Enter the value : "))
+# avg = 0.0
+# s = 0
+# for i in range(1,n+1):
+#           s = s+i
+# avg = s/i
+# print("The sum of first",n,"natural numbers is",s)
+# print("The average of first n natural numbers is",avg)
+
+#  Write a program to print the multiplication table of n, where n is entered by the user.
+# n = int(input("Enter the number : "))
+# print("Multiplication table of",n)
+# print("*************************************")
+# for i in range(1,11):
+#           print(n,"X",i,"=",n*i)
+
+#  Write a program using loop to print all numbers from m-n thereby classfying them as even or odd
+# m = int(input("Enter the value of m : "))
+# n = int(input("Enter the value of n : "))
+# for i in range(m,n*1):
+#           if(i%2==0):
+#                     print(i,"is even number")
+#           else:
+#                     print(i,"is odd number")
+
+#  Write a program using for loop to calculate factorial of number.
+# num = int(input("Enter the number : "))
+# if(num==0):
+#           fact = 1
+# fact = 1
+# for i in range(1,num+1):
+#           fact = fact*i
+# print("Factorial of", num,"is",fact)
+
+#  Write a program to classify a given number as prime or composite
+# number = int(input('Enter number : '))
+# isComposite = 0
+# for i in range(2,number):
+#           if(number%i == 0):
+#                     isComposite = 1
+#                     break
+# if(isComposite == 1):
+#           print("Number is Composite")
+# else:
+#           print("Number is prime")
+
+
